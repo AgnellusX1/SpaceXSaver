@@ -173,7 +173,7 @@ while running:
     screen.fill(BLACK)
     screen.blit(background, background_rect)
     all_sprites.draw(screen)
-    draw_text(screen, str(score), 24, WIDTH / 2, 10)
+    draw_text(screen, "Score: "+str(score), 24, WIDTH / 2, 10)
     # *after* drawing everything, flip the display
     pygame.display.flip()
 
